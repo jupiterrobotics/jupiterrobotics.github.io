@@ -625,27 +625,27 @@ a.contact_btn:hover {
 }
 
 
-/* Portfolio
+/* Delivery
 ---------------------------------*/
 
 
-#Portfolio {
+#Delivery {
     padding: 60px 0px;
 }
 
-.Portfolio-nav {
+.Delivery-nav {
     padding: 0;
     margin: 0 0 45px 0;
     list-style: none;
     text-align: center;
 }
 
-.Portfolio-nav li {
+.Delivery-nav li {
     margin: 0 10px;
     display: inline;
 }
 
-.Portfolio-nav li a {
+.Delivery-nav li a {
     display: inline-block;
     padding: 10px 22px;
     font-size: 12px;
@@ -660,19 +660,19 @@ a.contact_btn:hover {
     -webkit-transition: all 0.3s ease-in-out;
 }
 
-.Portfolio-nav li a:hover {
+.Delivery-nav li a:hover {
     background: #ED5441;
     color: #fff;
     text-decoration: none;
 }
 
-.portfolioContainer {
+.deliveryContainer {
     margin: 0 auto;
     padding-left: 15px;
     width: auto !important;
 }
 
-.Portfolio-box {
+.Delivery-box {
     text-align: center;
     width: 350px;
     overflow: hidden;
@@ -680,17 +680,17 @@ a.contact_btn:hover {
     padding: 12px 0px;
 }
 
-.Portfolio-box img {
+.Delivery-box img {
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
-.Portfolio-box img:hover {
+.Delivery-box img:hover {
     opacity: 0.6;
 }
 
-.Portfolio-nav li a.current {
+.Delivery-nav li a.current {
     background: #ED5441;
     color: #fff;
     text-decoration: none;
@@ -1318,19 +1318,19 @@ transition: all .3s;
 
 
 	
-/* Portfolio */	
+/* Delivery */
 	
-.container.portfolio_title {
+.container.delivery_title {
     padding-bottom: 0px;
 }
 
-#portfolio {
+#delivery {
     padding: 60px 0 40px;
 }
 
 
 
-/* Portfolio Filters */	
+/* Delivery Filters */
 
 #filters {
     margin-top: 10px;
@@ -1396,9 +1396,9 @@ transition: all .3s;
 
 
 
-/* Portfolio Items */	
+/* Delivery Items */
 
-#portfolio_wrapper {
+#delivery_wrapper {
     position: relative;
     padding: 0;
     width: 100%;
@@ -1406,7 +1406,7 @@ transition: all .3s;
     display: block;
 }
 
-#portfolio_wrapper .one-four {
+#delivery_wrapper .one-four {
     margin: 0!important;
     line-height: 0;
     width: 25%;
@@ -1414,24 +1414,24 @@ transition: all .3s;
     position: relative;
 }
 
-.portfolio-item {
+.delivery-item {
     padding: 0;
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-item .portfolio_img {
+.delivery-item .delivery_img {
     overflow: hidden;
     display: block;
     position: relative;
 }
 
-.portfolio-item .portfolio_img img {
+.delivery-item .delivery_img img {
     width: 100%;
     height: auto;
 }
 
-.portfolio-item:hover .item_overlay {
+.delivery-item:hover .item_overlay {
     opacity: 1;
     transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -1490,7 +1490,7 @@ transition: all .3s;
     z-index: 10;
 }
 
-.portfolio-item:hover .project_name {
+.delivery-item:hover .project_name {
     opacity: 1;
     -webkit-transition: opacity .1s .2s;
     -moz-transition: opacity .1s .2s;
@@ -1511,7 +1511,7 @@ transition: all .3s;
     -o-transition: all 0.2s ease 0s;
 }
 
-.portfolio-item:hover .project_catg {
+.delivery-item:hover .project_catg {
     opacity: 0.8;
     -webkit-transition: opacity .1s .2s;
     -moz-transition: opacity .1s .2s;
@@ -1537,7 +1537,7 @@ transition: all .3s;
     -o-transition: all 0.3s ease 0.2s;
 }
 
-.portfolio-item:hover .zoom-icon {
+.delivery-item:hover .zoom-icon {
     opacity: 1;
     margin-top: 0px;
     -webkit-transition: opacity .3s .2s, margin-top .3s .2s;
@@ -1550,7 +1550,7 @@ transition: all .3s;
 	
 	
 	
-/* Portfolio Isotope Transitions */	
+/* Delivery Isotope Transitions */
 
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -1586,7 +1586,7 @@ transition: all .3s;
 
 
 
-/* Portfolio Expander */	
+/* Delivery Expander */
 
 
 
@@ -1660,7 +1660,7 @@ transition: all .3s;
 }
 
 	
-/* Portfolio*/	
+/* Delivery*/
 	
 	
 .project-image-slider .bx-wrapper .bx-next {
@@ -1693,7 +1693,7 @@ transition: all .3s;
     z-index: 100;
 }
 	
-/* Portfolio Normal Expander */		
+/* Delivery Normal Expander */
 	
 .project-description {
     margin-top: 40px;
@@ -1725,7 +1725,7 @@ transition: all .3s;
 	
 	
 	
-/* Portfolio FullScreen Expander */			
+/* Delivery FullScreen Expander */
 	
 #cycle-loader {
     height: 32px;
