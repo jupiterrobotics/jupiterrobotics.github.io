@@ -203,7 +203,7 @@ body {
 h2 {
     font-size: 38px;
     color: #222222;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     margin: 0 0 25px 0;
     text-align: center;
@@ -212,7 +212,7 @@ h2 {
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     color: #222222;
     font-size: 18px;
     margin: 0 0 5px 0;
@@ -237,10 +237,10 @@ p {
 
 #header_wrapper {
     background: #ffffff;
-    padding: 20px 0;
+    padding: 10px 0;
 	
-    border-top: 4px solid #0294FD;
-	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
+    border-top: 3px solid #666666;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.44);
 }
 
 .header_box {
@@ -287,25 +287,18 @@ p {
 
 .navStyle ul li {
     display: inline-block;
-    margin: 0 5px;
-}
-
-.navStyle ul li:first-child {
-	/*margin:0px;*/;
-}
-
-.navStyle ul li:last-child {
-    margin: 0 0 0 23px;
+    margin: 5px 5px;
 }
 
 .navStyle ul li a {
     display: block;
-    font-size: 14px;
-    color: #222222;
-    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -322,19 +315,19 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #0294FD;
+    color: #c7ac16;
     background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #0294FD;
+    color: #af960f;
     background-color: transparent;
 }
 
 .navStyle > li.active > a,
 .navStyle > li.active > a:hover {
     text-decoration: none;
-    color: #ED5441;
+    color: #af960f;
     background-color: transparent;
 }
 
@@ -356,7 +349,7 @@ p {
 .top_cont_outer {
     position: relative;
 	
-    background: #0294FD url(../img/pattern-1.png) top left repeat;
+    background: #4e5339 url(../img/pattern-1.png) top left repeat;
 	height:650px;
 }
 
@@ -394,7 +387,7 @@ p {
     color: #FFF;
     line-height: 52px;
     margin: 0 0 26px 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -415,7 +408,7 @@ p {
 }
 
 a.read_more, a.read_more2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
     font-size: 16px;
     width: 178px;
@@ -424,7 +417,7 @@ a.read_more, a.read_more2 {
     border-radius: 3px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -509,8 +502,8 @@ text-align: center;
 }
 
 .service_block h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 25px;
     color: #fff;
 margin: 35px 0 15px; 
@@ -596,8 +589,8 @@ a.contact_btn {
     font-size: 16px;
     color: #ED5441;
     border-radius: 3px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     border: 2px solid #ED5441;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -856,7 +849,7 @@ background-position-y: 70px;
 .about-us .points:before{
 	content: "\f058";
 	position: absolute;
-    font-family: FontAwesome, serif;
+    font-family: 'Roboto', sans-serif;
 	font-size: 1.125em;
 	color: #0294FD;
 	left: 0;
@@ -1102,7 +1095,7 @@ transition: all .3s;
 
 .contact_info  h3 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 300;
     margin: 0 0 30px;
     color: #fff;
 }
@@ -1203,7 +1196,7 @@ transition: all .3s;
     color: #ffffff;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     border: 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1451,7 +1444,7 @@ transition: all .3s;
 .project-section-title h1 {
     margin-bottom: 5px!important;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project-page {
@@ -1574,9 +1567,6 @@ float: right;
 }
 .navStyle ul li {
 display: block;
-margin: 0;
-}
-.navStyle ul li:last-child {
 margin: 0;
 }
 .navbar-inverse .navbar-nav > li > a {
