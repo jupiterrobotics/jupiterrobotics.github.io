@@ -903,3 +903,209 @@ a.read_more:hover {
         display: none;
     }
 }
+
+.top_cont_outer_asrs {
+    position: relative;
+
+    background: #171812 url(../img/pattern-1.png) top left repeat;
+    height: 500px;
+}
+
+#product_info_section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.product_info_wrapper .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_left_cont h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.top_left_cont p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.why-choose-section {
+    background-color: #f0f0f0;
+    padding: 60px 0; /* Adjust as needed */
+}
+
+.left-content {
+    padding-right: 30px; /* Space between text and image */
+}
+
+.left-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5rem; /* Header size */
+    margin-bottom: 5px;
+    color: #007bff; /* Change to desired color */
+}
+
+
+.right-image img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.left-content h1,
+.left-content h2 {
+    text-align: left; /* Ensure text is left-aligned */
+    margin-bottom: 10px; /* Add some space below the headings */
+}
+
+.left-content p {
+    text-align: left; /* Make sure paragraph text is also left-aligned */
+}
+
+.how-it-works-section {
+    padding: 60px 0; /* Section padding */
+}
+
+.how-it-works-section .text-center {
+    margin-bottom: 40px; /* Space below title section */
+}
+
+.how-it-works-section .row {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers items */
+}
+
+.step-description {
+    padding-left: 15px; /* Space between image and text */
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+}
+
+/* Image styling */
+.step-image {
+    width: 300px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 10px; /* Rounded corners */
+    flex-shrink: 0; /* Prevent shrinking */
+    margin-left: auto;
+}
+
+/* Adjust spacing between rows */
+.row.mb-4 {
+    margin-bottom: 40px; /* Space below each row */
+}
+
+/* Center images and allow for responsive behavior */
+.col-md-6.d-flex.justify-content-end {
+    justify-content: end; /* Align images to the right */
+}
+
+.faq-section {
+    padding: 60px 0; /* Section padding */
+    background-color: #edeadf; /* Darker background color */
+    color: #ffffff; /* Set text color to white for better contrast */
+}
+
+.faq-section .text-center {
+    margin-bottom: 40px; /* Space below title section */
+    color: #ffffff; /* Set text color to white for better contrast */
+}
+
+.faq-item {
+    margin-bottom: 20px; /* Space between FAQ items */
+}
+
+.faq-section h1 {
+    color: #000; /* Black color for the FAQ title */
+}
+
+.faq-question {
+    font-size: 1.5rem; /* Adjust font size for questions */
+    cursor: pointer; /* Indicate that the question can be clicked */
+    padding: 15px;
+    background-color: #f8f9fa; /* Darker background color for questions */
+    border: 1px solid #ced4da; /* Border for the question box */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.faq-question:hover {
+    background-color: #f1f1d2; /* Change background on hover */
+}
+
+.faq-answer {
+    color: #000000; /* Light grey text for answers */
+    padding-left: 15px; /* Padding to the left for the answer text */
+    margin-top: 5px; /* Space between question and answer */
+}
+
+/* Optional: Style for buttons if you have them */
+.faq-button {
+    background-color: #007bff; /* Light blue background for buttons */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.faq-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
