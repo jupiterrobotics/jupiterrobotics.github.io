@@ -33,9 +33,9 @@
                 </div>
                 <div id="main-nav" class="collapse navbar-collapse navStyle">
                     <ul class="nav navbar-nav" id="mainNav">
-                        <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-                        <li><a href="#product" class="scroll-link">Product</a></li>
-                        <li><a href="#demo" class="scroll-link">Demo</a></li>
+                        <li class="active"><a href="#product_info_section" class="scroll-link">Home</a></li>
+                        <li><a href="#why_choose" class="scroll-link">Product</a></li>
+                        <li><a href="#how_it_works" class="scroll-link">How it works</a></li>
                         <li><a href="#contact" class="scroll-link">Contact</a></li>
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
                     <!-- Right Side: Form content -->
                     <div class="col-md-6 col-sm-12">
                         <div class="form-box">
-                            <form action="https://script.google.com/macros/s/AKfycbzOQ17oZxdcTYR7WigZgpp3ds9oS3CcQkKTnhNEN1lb-oN4YjmG2oeoSs5seCQMvunEew/exec" method="POST">
+                            <form id="emailForm">
                                 <div class="form-group">
                                     <label for="name">Name</label>
                                     <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
@@ -70,6 +70,31 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">Book a Demo</button>
                             </form>
+                            <div id="submitMessage" style="color: green; display: none;">Submitted!</div>
+
+                            <script>
+                              document.getElementById('emailForm').addEventListener('submit', function (event) {
+                                event.preventDefault(); // Prevent the default form submission
+
+                                const formData = new FormData(this);
+
+                                fetch('https://script.google.com/macros/s/AKfycbzOQ17oZxdcTYR7WigZgpp3ds9oS3CcQkKTnhNEN1lb-oN4YjmG2oeoSs5seCQMvunEew/exec', {
+                                  method: 'POST',
+                                  body: formData,
+                                })
+                                  .then(response => response.json())
+                                  .then(data => {
+                                    if (data.status === "success") {
+                                      // Display the success message
+                                      document.getElementById('submitMessage').style.display = 'block';
+                                    }
+                                  })
+                                  .catch(error => {
+                                    console.error('Error:', error);
+                                    // Optionally, handle the error (e.g., show an error message)
+                                  });
+                              });
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -185,12 +210,12 @@
         <div class="faq-item">
             <h2 class="faq-question" data-toggle="collapse" data-target="#faq1">Can the robots work in any warehouse size?</h2>
             <div id="faq1" class="collapse faq-answer">
-                <p>Absolutely! Size doesn’t intimidate Flobx. Big or small, we’ll navigate all!</p>
+                <p>Absolutely! Size doesn’t intimidate Jupiter ASRS. Big or small, we’ll navigate all!</p>
             </div>
         </div>
 
         <div class="faq-item">
-            <h2 class="faq-question" data-toggle="collapse" data-target="#faq2">How does Flobx work?</h2>
+            <h2 class="faq-question" data-toggle="collapse" data-target="#faq2">How does Jupiter ASRS work?</h2>
             <div id="faq2" class="collapse faq-answer">
                 <p>Several unit-shaped shelves are put together. These shelves have a structure that holds a bin. A robot moves into the space below the bin to retrieve ordered items and bring them to the picking station. Robots move to other levels using an elevator.</p>
             </div>
@@ -204,7 +229,7 @@
         </div>
 
         <div class="faq-item">
-            <h2 class="faq-question" data-toggle="collapse" data-target="#faq4">How cost effective is purchasing Flobx?</h2>
+            <h2 class="faq-question" data-toggle="collapse" data-target="#faq4">How cost effective is purchasing Jupiter ASRS?</h2>
             <div id="faq4" class="collapse faq-answer">
                 <p>Greater speed, greater efficiency, fewer errors… All these mean savings—lots of it!</p>
             </div>
